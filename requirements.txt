@@ -1,0 +1,16 @@
+jupyterlab
+ipykernel
+xarray
+dask
+zarr
+s3fs
+fsspec
+numpy
+pandas
+matplotlib
+cartopy
+shapely
+pyproj
+scipy
+netCDF4
+cftime
