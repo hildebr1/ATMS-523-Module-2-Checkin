@@ -9,8 +9,8 @@ The included notebook loads *NOAA OISST v2.1 (daily sea surface temperature)* fr
 
 1. **Create env** (Conda or mamba recommended):
    ```bash
-   mamba env create -f environment.yml
-   mamba activate xarray-climate
+   mamba env create --prefix $HOME/envs/xarray-climate -f environment.yml
+   mamba activate $HOME/envs/xarray-climate
    ```
    or with pip:
    ```bash
