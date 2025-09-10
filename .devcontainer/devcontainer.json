@@ -1,0 +1,8 @@
+{
+  "name": "xarray-climate",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/conda:1": {}
+  },
+  "postCreateCommand": "mamba env update -f environment.yml && echo 'conda activate xarray-climate' >> ~/.bashrc"
+}

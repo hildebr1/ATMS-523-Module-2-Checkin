@@ -32,18 +32,18 @@ The included notebook loads *NOAA OISST v2.1 (daily sea surface temperature)* fr
 
 - **Dataset:** NOAA Optimum Interpolation Sea Surface Temperature (OISST) v2.1, **daily**  
 - **Cloud location:** `s3://noaa-oisst-zarr` (public, no credentials required)  
-- **Access method:** Zarr + fsspec/s3fs with `anon=True`  
+- **Access method:** netCDF + fsspec/s3fs with `anon=True`  
 - **Variable used:** `sst` (°C); OISST provides °C values already (check attributes).
 
 ## Learning goals
 
-- Open a Zarr dataset in the cloud with xarray
+- Open a netCDF dataset in the cloud with xarray
 - Inspect coordinates, variables, and metadata
 - Lazy-load & chunk with Dask
 - Subset in space/time
 - Compute descriptive stats (mean, std, anomalies, seasonal cycle)
 - Make a quick global map of a time-aggregated field
-- Export a small NetCDF or Zarr for reuse
+- Export a small NetCDF (Check in for Week 2)
 
 ## Attribution
 

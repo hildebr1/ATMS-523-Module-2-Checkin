@@ -1,0 +1,1 @@
+After pushing to GitHub, enable the **Template repository** toggle in Settings.
