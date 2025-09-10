@@ -21,3 +21,4 @@ dependencies:
   - intake
   - netcdf4
   - cftime
+  - gcsfs
