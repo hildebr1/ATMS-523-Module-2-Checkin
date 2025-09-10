@@ -7,10 +7,10 @@ The included notebook loads *NOAA OISST v2.1 (daily sea surface temperature)* fr
 
 ## Quick start (local)
 
-1. **Create env** (Conda recommended):
+1. **Create env** (Conda or mamba recommended):
    ```bash
-   conda env create -f environment.yml
-   conda activate xarray-climate
+   mamba env create -f environment.yml
+   mamba activate xarray-climate
    ```
    or with pip:
    ```bash
